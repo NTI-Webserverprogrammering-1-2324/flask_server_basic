@@ -10,10 +10,16 @@
         "ms-python.python",
         "ms-python.vscode-pylance",
         "ms-toolsai.jupyter",
-        "ms-python.black"
-      ]
+        "ms-python.black-formatter"
+      ],
+      "settings": {
+        "[python]": {
+          "editor.defaultFormatter": "ms-python.black-formatter",
+          "editor.formatOnSave": true
+        }
+      }
     }
   },
   "postCreateCommand": "echo 'Container setup complete. Happy coding!'",
-  "forwardPorts": [3000] // for Flask
+  "forwardPorts": [3000]
 }
