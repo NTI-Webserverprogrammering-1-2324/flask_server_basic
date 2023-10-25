@@ -37,7 +37,7 @@ I vår kurs "Webserverprogrammering 1" kommer vi ständigt att stöta på två c
         return "Hello World!"
     ```
 
-4. **Starta servern**: Använd följande kod för att starta servern och sätta din Flask-app i drift.
+4. **Aktivering av Flask-appen**:  Denna kodsnutt ser till att servern startar när scriptet körs direkt från terminalen, vilket sätter Flask-applikationen i drift.
     ```python
     if __name__ == "__main__":
         app.run(debug=True, port=3000)
