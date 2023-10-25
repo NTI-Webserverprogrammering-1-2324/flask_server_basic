@@ -1,4 +1,4 @@
-# Flask Server: Basic 🚀
+# Flask Server: Basic 
 
 Detta repo ger en översikt över hur man sätter upp en enkel Flask-server genom att följa en steg-för-steg-guide från början. För en djupare insikt, se notebook-filen `Flask_Server_Intro`.
 
