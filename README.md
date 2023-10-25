@@ -43,5 +43,25 @@ I vår kurs "Webserverprogrammering 1" kommer vi ständigt att stöta på två c
         app.run(debug=True, port=3000)
     ```
 
+## Kör igång Flask-servern 🚀
+
+För att sätta igång Flask-servern, följ nedanstående steg:
+
+1. **Installera Flask**: Om ni inte redan har installerat Flask kan ni enkelt göra det med pip:
+   ```
+   pip install Flask
+   ```
+
+2. **Starta servern**: När ni har installerat Flask, kan ni starta servern med följande kommando:
+   ```
+   python app.py
+   ```
+
+   När servern är igång bör ni se ett meddelande som talar om att den körs på adressen `http://127.0.0.1:3000/`.
+
+3. **Öppna i webbläsaren**: Besök `http://127.0.0.1:3000/` i er webbläsare för att se er Flask-applikation live!
+
+
+
 ## Kontakt 📬
 För ytterligare information eller frågor, vänligen kontakta: **KaahinAtNTI**.
